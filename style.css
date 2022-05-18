@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aqua;
+  margin: 0;
+  margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+section{
+  height: 900px;
+  width: 100%;
+  background: pink;
+  border: 1px solid #e0e0e0;
+  /*Flexbox*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article{
+  width: 25%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  background: white;
+}
+
+article img{
+  width: 100%;
+}
+
+article h2{
+  margin-top: 8px;
+}
+
+.art2{
+  /*order: -1;*/
+  /*flex-grow: 1;*/
+  align-self: flex-end;
+}
+
